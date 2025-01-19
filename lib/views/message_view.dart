@@ -36,7 +36,7 @@ class _MessageViewState extends State<MessageView> {
         ),
       )
       ..loadRequest(
-        Uri.parse('您的Streamlit应用URL'), // 替换为实际的Streamlit应用URL
+        Uri.parse('https://flutter.streamlit.app/'), // 替换为实际的Streamlit应用URL
       );
   }
 
